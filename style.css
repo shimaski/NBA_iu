@@ -92,10 +92,11 @@ header {
 }
 .lakers{
     position: absolute;
-    width: 470px;
-    height: 159px;
+    width:690px;
+    opacity: 0.9;
     
 }
+    
 .middle {
 	position: relative;
 }
