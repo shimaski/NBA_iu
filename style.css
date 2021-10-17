@@ -11,6 +11,7 @@
     list-style-type: none;
 }
 
+
 /* menu lateral*/
 .sidebar{
      width: 40px;
@@ -78,11 +79,11 @@ header {
 }
 
 .content-1 {
-    min-height: 40vh ;
+    min-height: 30vh ;
     background: #fffb19;
     display: grid;
     grid-template-columns: 30% 40% 30% ;
-    color: rgb(28, 1, 46);
+    color: rgb(38, 2, 65);
 }
 
 .text-center {
@@ -92,7 +93,8 @@ header {
 }
 .lakers{
     position: absolute;
-    width:690px;
+    top:-50px;
+    width:670px;
     opacity: 0.9;
     
 }
@@ -117,8 +119,8 @@ header {
 
 .lebron {
 	position: absolute;
-	width: 65%;
-	top: -30px;
+	width: 58%;
+	top: -15px;
 	left: 50%;
 	transform: translateX(-50%);
 	z-index: 100;
@@ -136,7 +138,7 @@ header {
     
 }
 .circle-bg{
-    background: #ccc;
+    background: rgba(204, 204, 204, 0);
     padding: .3rem;
     height:30px;
     width: 30px;
@@ -149,6 +151,7 @@ header {
 .fav{
     display: flex;
     align-items: center;
+    
 }
 .character h1 {
 
@@ -169,11 +172,11 @@ header {
 .features{
     display: flex;
     margin-top: .9rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 
 }/* feature filhos */
 .feature:first-child{
-    margin-right: 9rem;
+    margin-right: 6rem;
 }
 .feature p{
     font-weight: 400;
@@ -225,14 +228,6 @@ padding-left: 4.5rem;
    padding-left: 1rem;
 }
 
-.highlights{
-    display: grid;
-    grid-template-columns: 60% 60% ;
-    margin-top: 1.3rem;
-    overflow-x: hidden;
-    color: #fff;
-
-}
 .highlights {
 	display: grid;
 	grid-template-columns: 60% 60%;
@@ -256,6 +251,7 @@ padding-left: 4.5rem;
 	width: 100%;
 	height: 100%;
 	border-radius: 7px;
+    box-shadow: 3px 3px rgb(38, 2, 58), -1em 0 0.4em rgba(255, 255, 67, 0.493);
 }
 
 .h-card-content {
@@ -282,4 +278,95 @@ padding-left: 4.5rem;
 .h-card-title p {
 	font-size: .7rem;
 	padding-left: .5rem;
+}
+
+.content-2{
+    background: #f1f523;
+    padding: 1rem 2rem;
+    min-height: 38vh ;
+    position: relative;
+   
+}
+
+/* flex das caracteristicas*/
+
+.flex{
+     width: 30%;
+}
+.flex-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+
+}
+
+.flex:last-child{
+padding-left:4.5rem ;
+}
+table {
+    border-collapse:  collapse;
+    width: 70%;
+    color: rgb(51, 20, 138);
+}
+th, td {
+    border-bottom: 1px solid #505050;
+    padding: .4rem;
+    font-size: 1rem ;
+}
+
+th{
+
+    text-transform: uppercase ;
+    font-size: .6rem ;
+    text-align: left;
+}
+
+td{
+   padding-left: 2rem; 
+}
+.points {
+    position: absolute;
+    width: 40%;
+    left: 50%;
+    bottom: 2rem;
+    transform:  translateX(-50%);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0rem 3rem;
+    z-index: 150;
+    
+}
+.points-card{
+    border-radius: 7px;
+    text-align: center;
+    color: #fff;
+}
+.points-title{
+    text-transform:uppercase ;
+    font-size: .8rem;
+    font-weight: 700;
+    padding: .5rem 0rem;
+    border-bottom: 1px solid #fff;
+}
+.points-body{
+    padding: 1.2rem 1rem 2rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.points-body h2{
+    font-size: 2.5rem;
+}
+.points-body h2 span{
+    font-size: .8rem;
+}
+.points-card:first-child, 
+.points-card:last-child {
+background: rgb(25, 1, 53);
+}
+
+.points-card:nth-child(2){
+    background: rgb(223, 208, 6);
+    color: rgb(57, 12, 109);
 }
