@@ -119,7 +119,7 @@ header {
 
 .lebron {
 	position: absolute;
-	width: 58%;
+	width: 60%;
 	top: -15px;
 	left: 50%;
 	transform: translateX(-50%);
@@ -317,12 +317,13 @@ th, td {
 th{
 
     text-transform: uppercase ;
-    font-size: .6rem ;
+    font-size: .7rem ;
     text-align: left;
 }
 
 td{
    padding-left: 2rem; 
+   font-size: .9rem ;
 }
 .points {
     position: absolute;
