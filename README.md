@@ -1,2 +1,3 @@
 # NBA_iu
-projeto pessoal - portifolio
+
+https://shimaski.github.io/NBA_iu/
